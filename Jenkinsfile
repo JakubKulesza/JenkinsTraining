@@ -1,8 +1,6 @@
 pipeline {
     agent any
-    tools {
-        gradle ‘gradle-8’ // lub inna zainstalowana wersja
-    }
+
     stages {
         stage('Start') {
             steps {
