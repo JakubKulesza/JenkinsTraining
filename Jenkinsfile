@@ -25,7 +25,7 @@ pipeline {
             }
             steps {
                 echo 'Uruchamiam testy'
-                sh './gradlew clean test'
+                bat './gradlew clean test'
             }
         }
 
